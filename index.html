@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media-query.css" />
 
     <title>Amazon</title>
   </head>
   <body>
     <header>
       <div class="logo">
+        <img src="./asset/amazon-mobile-logo-white.png" alt="" />
+      </div>
+      <div class="desktop-logo">
         <img src="./asset/amazon-logo-white.png" alt="desktop-amazon" />
       </div>
       <form>
@@ -28,7 +32,25 @@
         </button>
       </form>
 
-      <nav>
+      <nav class="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu();">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="hamburger-links">
+          <li>
+            <a href="Returns & Orders" onclick="toggleMenu();"
+              >Returns & Orders</a
+            >
+          </li>
+          <li><a href="cart" onclick="toggleMenu();">Add to Cart</a></li>
+        </div>
+      </nav>
+
+      <nav class="desktop-nav">
         <ul>
           <li>
             <a href="#orders">
@@ -50,9 +72,6 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section></section>
-    </main>
-    <footer></footer>
+    <script defer src="./app.js"></script>
   </body>
 </html>

@@ -1,0 +1,22 @@
+@media only screen and (min-width: 800px){
+    body{
+        background-color: gray;
+    }
+    .logo{
+        display: none;
+    }
+    .desktop-logo{
+        display: block;
+    }
+    .desktop-logo img{
+        width: 100px;
+        margin-top: 5px;
+    }
+    .hamburger-nav{
+        display: none;
+    }
+    .desktop-nav{
+        display: flex;
+    }
+
+}
