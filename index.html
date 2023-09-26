@@ -42,11 +42,11 @@
         </div>
         <div class="hamburger-links">
           <li>
-            <a href="Returns & Orders" onclick="toggleMenu();"
+            <a href="#Returns & Orders" onclick="toggleMenu();"
               >Returns & Orders</a
             >
           </li>
-          <li><a href="cart" onclick="toggleMenu();">Add to Cart</a></li>
+          <li><a href="#cart" onclick="toggleMenu();">Add to Cart</a></li>
         </div>
       </nav>
 
@@ -61,6 +61,7 @@
           <li>
             <a class="cart-link" href="#cart">
               <img
+                class="slides"
                 class="cart-icon"
                 src="./asset/cart-icon.png"
                 alt="cart-icon"
@@ -72,6 +73,21 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="slideshow">
+        <div class="slideshow-c">
+          <img class="slides" src="./asset/books.jpg" alt="books" />
+          <img class="slides" src="./asset/clothing.jpg" alt="clothing" />
+          <img class="slides" src="./asset/devices.jpg" alt="devices" />
+          <img
+            class="slides"
+            src="./asset/cooking-utility.jpg"
+            alt="cooking-utility"
+          />
+        </div>
+      </section>
+    </main>
+
     <script defer src="./app.js"></script>
   </body>
 </html>

@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     padding: 1rem 0.5rem;
     min-height: 60px;
+    flex-wrap: wrap;
 }
 
 .logo img{
@@ -51,7 +52,7 @@ form{
 /*Mobile Nav Start*/
 #hamburger-nav {
     display: none;
-    background-color: var(--thirtyColor);
+    background-color: green;
 }
 
 .hamburger-menu {
@@ -179,3 +180,8 @@ li a{
     text-align: center;
 }
 /*Destop Nav End*/
+
+/*Slideshow start*/
+.slides{
+    display: none;
+}
